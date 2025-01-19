@@ -26,7 +26,7 @@ module.exports = {
   ERROR_MSG: toBool(process.env.ERROR_MSG || 'true'), 
   WELCOME_MSG: process.env.WELCOME_MSG || '👋 Hello *@user* Welcome To Our Group *@gname*\n*Total Members:* @count\n*Total Admins:* @admin\n*Group Description:*\n@gdesc @pp',
   GOODBYE_MSG: process.env.GOODBYE_MSG || '👋 GoodBye *@user* From *@gname*\n*Total Members:* @count @pp',
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',Phoenix~RaiderBuster
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
   RENDER_NAME: process.env.RENDER_NAME || '',
   RENDER_API: process.env.RENDER_API || '',
